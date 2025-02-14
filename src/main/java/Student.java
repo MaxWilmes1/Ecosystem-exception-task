@@ -6,6 +6,7 @@ import lombok.With;
 public record Student(
         String id,
         String name,
-        String subject
+        String subject,
+        String adress
 ) {
 }
